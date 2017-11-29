@@ -3,7 +3,12 @@ body {
 }
 h1{
     color: white
+
 }
 h2{
     color: white;
+}
+
+h5{
+    font-size: 25
 }
