@@ -1,17 +1,7 @@
-
-h1{
-    color: black
-
-}
-h2{
-    color: white;
-}
-
-h5{
-    font-size: 25px ;
-}
-
-.Miami {
-    font-size:90px;
-    color:red;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font size: 15px;
+    line-height:1.5;
+    font: 1.5px/1.5 Arial, Helvetica, sans-serif;
+    
 }
