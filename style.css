@@ -12,6 +12,11 @@ body {
     overflow:hidden;
 }
 
+header ul{
+    margin:0;
+    padding:0;
+    
+}
 header{
     background:#3542a;
     color:#ffffff;
@@ -30,3 +35,24 @@ header a{
 
 
 
+header li{
+    float: left;
+    display:inline;
+    padding:0 20 px 0 20 px;
+    
+}
+
+header #branding{
+    float:left;
+    
+}
+
+header #branding{
+    margin:0;
+}
+
+
+header nav{
+    float:right;
+    margin-top:10px;
+}
