@@ -70,3 +70,11 @@ header a:hover{
     font-weight: bold;
 
 }
+
+
+
+
+#showcase{
+    min-height:400 px;
+    background: ('NBA logo.jpg')
+}
