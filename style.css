@@ -2,7 +2,7 @@ body{
   font: 15px/1.5 Arial, Helvetica,sans-serif;
   padding:0;
   margin:0;
-  background-color:	black;
+  background-color:	lightskyblue;
 }
 
 /* Global */
@@ -36,7 +36,7 @@ ul{
 
 /* Header **/
 header{
-  background:white;
+  background:black;
   color:#ffffff;
   padding-top:30px;
   min-height:70px;
@@ -70,7 +70,7 @@ header nav{
 }
 
 header .highlight, header .current a{
-  color:#e8491d;
+  color:white;
   font-weight:bold;
 }
 
@@ -101,7 +101,7 @@ header a:hover{
 #newsletter{
   padding:15px;
   color:#ffffff;
-  background:#35424a
+  background:black
 }
 
 #newsletter h1{
@@ -132,7 +132,7 @@ header a:hover{
 }
 
 #boxes .box img{
-  width:90px;
+  width:100px;
 }
 
 /* Sidebar */
@@ -166,7 +166,7 @@ footer{
   padding:20px;
   margin-top:20px;
   color:#ffffff;
-  background-color:white;
+  background-color:black;
   text-align: center;
 }
 
