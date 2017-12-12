@@ -86,6 +86,11 @@ header a:hover{
   color:#cccccc;
   font-weight:bold;
 }
+.awesome{
+  color: white;
+  font-weight:bold;
+  
+}
 
 /* Showcase */
 #showcase{
