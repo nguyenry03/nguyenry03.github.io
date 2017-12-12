@@ -3,7 +3,7 @@ body{
   padding:0;
   margin:0;
   
-  background-color:	#1c73ff;
+  background-color:	#82d3ed;
 }
 
 /* Global */
@@ -25,7 +25,14 @@ ul{
   padding-left: 20px;
   padding-right:20px;
   color:#ffffff;
+  
+
 }
+
+.power{
+  font-size: 20
+}
+
 
 .dark{
   padding:15px;
@@ -41,7 +48,7 @@ header{
   color:#ffffff;
   padding-top:30px;
   min-height:70px;
-  border-bottom:#dbc100 3px solid;
+  border-bottom:white 10px solid;
 }
 
 header a{
@@ -152,11 +159,13 @@ aside#sidebar{
   float:right;
   width:30%;
   margin-top:10px;
+  
 }
 
 aside#sidebar .quote input, aside#sidebar .quote textarea{
   width:90%;
   padding:5px;
+  
 }
 
 /* Main-col */
