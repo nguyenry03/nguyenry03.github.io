@@ -2,7 +2,8 @@ body{
   font: 15px/1.5 Arial, Helvetica,sans-serif;
   padding:0;
   margin:0;
-  background-color:	lightskyblue;
+  
+  background-color:	#1c73ff;
 }
 
 /* Global */
@@ -40,7 +41,7 @@ header{
   color:#ffffff;
   padding-top:30px;
   min-height:70px;
-  border-bottom:white 3px solid;
+  border-bottom:#dbc100 3px solid;
 }
 
 header a{
@@ -94,7 +95,7 @@ header a:hover{
 }
 
 #showcase p{
-  font-size:20px;
+  font-size:30px;
 }
 
 /* Newsletter */
@@ -104,8 +105,19 @@ header a:hover{
   background:black
 }
 
-#newsletter h1{
+#newsletters {
+  padding:15px;
+  color:#ffffff;
+  background:black
+}
+
+#newsletters h1{
   float:left;
+}
+
+#newsletters form {
+  float:right;
+  margin-top:15px;
 }
 
 #newsletter form {
