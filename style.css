@@ -3,7 +3,7 @@ body{
   padding:0;
   margin:0;
   
-  background-color:	#82d3ed;
+  background-color:	#2f538e;
 }
 
 /* Global */
@@ -80,6 +80,7 @@ header nav{
 header .highlight, header .current a{
   color:white;
   font-weight:bold;
+  
 }
 
 header a:hover{
