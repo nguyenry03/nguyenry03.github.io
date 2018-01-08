@@ -2,9 +2,10 @@ body{
   font: 15px/1.5 Arial, Helvetica,sans-serif;
   padding:0;
   margin:0;
+  background-color:	#034f84
   
-  background-color:	#79a9f7;
 }
+
 
 /* Global */
 .container{
@@ -36,7 +37,7 @@ ul{
 
 .dark{
   padding:15px;
-  background:#35424a;
+  background:  #92a8d1;
   color:#ffffff;
   margin-top:10px;
   margin-bottom:10px;
@@ -44,7 +45,7 @@ ul{
 
 /* Header **/
 header{
-  background:black;
+  background:#f7786b;
   color:#ffffff;
   padding-top:30px;
   min-height:70px;
@@ -52,7 +53,7 @@ header{
 }
 
 header a{
-  color:#ffffff;
+  color:black;
   text-decoration:none;
   text-transform: uppercase;
   font-size:16px;
@@ -115,7 +116,7 @@ header a:hover{
 #newsletter{
   padding:15px;
   color:#ffffff;
-  background:black
+  background: #c94c4c;
 }
 
 #newsletters {
@@ -165,6 +166,8 @@ aside#sidebar{
   float:right;
   width:30%;
   margin-top:10px;
+  color: black
+  
   
 }
 
@@ -193,7 +196,7 @@ footer{
   padding:20px;
   margin-top:20px;
   color:#ffffff;
-  background-color:black;
+  background-color: #c94c4c;
   text-align: center;
 }
 
