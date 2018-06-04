@@ -1,0 +1,70 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Processing Demo</title>
+<script type="text/javascript" src="apple.js"></script>
+</head>
+
+<body>
+<script type="text/processing">
+
+
+PImage background;
+PImage superman;
+int count = 0;
+int My = 0;
+int Vy = 0;
+int gamestate = 0;
+
+void setup(){
+  size(1600, 900);
+  superman = loadImage ("Superman.png");
+  background = loadImage ("Night.jpg");  
+}
+
+void draw(){
+  if (gamestate == 0){
+  image(background,count + 0,0);
+  image(background, width+count,0);
+  count--;
+  if (count ==- 1600){
+    count = 0;
+  }
+  image(superman, 100, My);
+  Vy++;
+  My = My+Vy;
+  if (My > 900){
+    gamestate = 2;
+  }
+}
+
+if (gamestate ==2){
+  textSize(40); fill (219, 84, 81);
+  text ("You Lost!", 750, 450);
+  rect(747,460,190,50,10);
+  fill(0);
+  text("Restart", 773, 500);
+  if (mouseX > 747 && mouseX < 937 && mouseY > 460 && mouseY < 510){ 
+    textSize(40); fill (1, 77, 198);
+    rect(747,460,190,50,10);
+    fill(0);
+    text("Restart", 773, 500);
+    
+  
+  
+    if (mousePressed){
+    gamestate = 0;
+    My = 200;
+    }
+  }
+}
+}  
+
+void mousePressed(){
+Vy = - 10;  
+}
+</script>
+<canvas id="sketch" style="border: 1px solid black;"></canvas>
+</body>
+</html>
